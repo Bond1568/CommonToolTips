@@ -1,0 +1,7 @@
+--cut a line
+dd
+
+--copy
+p
+
+

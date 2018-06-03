@@ -1,0 +1,5 @@
+--brw-rw..., what's mean of 'b'
+means block device
+'-'means common file
+'d' means directory
+'c' character device

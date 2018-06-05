@@ -1,0 +1,2 @@
+--can't create src/main/java after create a webapp in eclipse
+delete src/main/java in build path 

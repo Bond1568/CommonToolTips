@@ -1,2 +1,9 @@
 @auto create diretory with maven
 mvn archetype:generate -DgroupId=imooc-arthur -DartifactId=spring-mvc-study -DarchetypeArtifactId=maven-archcetype-webapp
+
+@aliyun maven repository
+   <mirror>
+   <id>nexus-aliyun</id>
+   <mirrorOf>*</mirrorOf>
+   <name>Nexus aliyun</name>
+   <url>http://maven.aliyun.com/nexus/content/groups/public</url>

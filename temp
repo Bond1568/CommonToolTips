@@ -1,0 +1,9 @@
+@RestController
+@Api(value = "/employee", tags = "Employee Api")
+@RequestMapping(value = "/employee")
+
+
+@RequestMapping(value = RequestAction.LIST, method = RequestMethod.POST)
+	@ApiOperation(value = "loadAllEmployees", notes = "get employee list", httpMethod = "POST", response = Employee.class, responseContainer = "List")
+  
+  @RequestBody

@@ -1,3 +1,6 @@
+@add private jar to local repository
+mvn install:install-file -Dfile=F:\hiynn-util1.1.jar -DgroupId=org.hiynn.util -DartifactId=hiynn-util -Dversion=1.0 -Dpackaging=jar  
+
 @auto create diretory with maven
 mvn archetype:generate -DgroupId=imooc-arthur -DartifactId=spring-mvc-study -DarchetypeArtifactId=maven-archcetype-webapp
 

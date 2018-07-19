@@ -1,3 +1,9 @@
 @ what's usage of web.xml
 Generally speaking, this is the configuration file of web applications in java. It instructs the servlet container (tomcat for ex.) which classes to load, 
 what parameters to set in the context, and how to intercept requests coming from browsers.
+
+what servlets (and filters) you want to use and what URLs you want to map them to
+  listeners - classes that are notified when some events happen (context starts, session created, etc)
+  configuration parameters (context-params)
+  error pages, welcome files
+  security constriants
